@@ -1,15 +1,20 @@
 {
   "name": "info-nepal",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "List districts of Nepal on the basis of zone and provinces.",
   "main": "index.js",
   "keywords": [
-    "Lists of districts of Nepal on the basis of Zone",
-    "Nepal districts"
+    "Lists of districts of Nepal",
+    "Nepal districts",
+    "Province wise districts of Nepal"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Sandip Basnet",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/developer-sandip/nepal-info"
+  },
   "license": "GPL-3.0-or-later"
 }
