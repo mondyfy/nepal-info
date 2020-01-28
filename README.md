@@ -2,7 +2,7 @@
 
 Jan. 28, 2020
 <br />
-Info Nepal is a tiny npm package that provides the lists of the districts of Nepal in a bulk as well as according to Province.
+Info Nepal is a tiny npm package that provides the list of the districts of Nepal in a bulk as well as that of respective Provinces & zones.
 
 ## Install
 
@@ -16,17 +16,24 @@ $ npm i info-nepal
 const infoNepal = require('info-nepal');
 // Load core infoNepal.
 
-infoNepal.allDistricts;
-// Returns array containing all districts of Nepal.
+const allDistricts = infoNepal.allDistricts;
+// Load all districts of Nepal.
 
-infoNepal.districtsOfProvince;
-// Returns object containing respective districtsof provinces.
+const districtsOfProvince = infoNepal.districtsOfProvince;
+// Load respective districts of provinces.
 
-infoNepal.districtsOfZone;
-// Returns object containing respective districts of zones(before province).
+const districtsOfZone = infoNepal.districtsOfZone;
+// Load respective districts of zones(before province).
+
+const localBodies = infoNepal.localBodies;
+// Load localBodies i.e. municipalities & rural municipalities of respective districts.
 
 ```
 
 ## Contribution
 
-Any kind of contributions are highly appreciated.
+Any kinds of contribution are highly appreciated.
+
+## Note:
+
+WIP: updating local bodies i.e. municipalities & rural municipalities of respective districts.
