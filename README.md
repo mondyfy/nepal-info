@@ -1,6 +1,6 @@
 # Info Nepal
 
-Jan. 28, 2020
+Feb. 04, 2020
 <br />
 Info Nepal is a tiny npm package that provides the list of the districts of Nepal in a bulk as well as that of respective Provinces & zones.
 
