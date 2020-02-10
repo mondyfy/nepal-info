@@ -1,9 +1,13 @@
 {
   "name": "info-nepal",
-  "version": "1.0.1",
+  "version": "1.2.4",
   "description": "List districts of Nepal on the basis of zone and provinces.",
   "main": "index.js",
   "keywords": [
+    "info-nepal",
+    "districts-nepal",
+    "localbodies-nepal",
+    "nepal-info",
     "Lists of districts of Nepal",
     "Nepal districts",
     "Province wise districts of Nepal"
@@ -14,7 +18,7 @@
   "author": "Sandip Basnet",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/developer-sandip/nepal-info"
+    "url": "git+https://github.com/mondyfy/nepal-info"
   },
-  "license": "GPL-3.0-or-later"
+  "license": "MIT"
 }
