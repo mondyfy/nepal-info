@@ -27,6 +27,23 @@ infoNepal.districtsOfZone;
 
 ```
 
-## Contribution
+## Contribution ✨
 
-Any kind of contributions are highly appreciated.
+Thanks goes to these wonderful people:
+<table>
+<tr>
+
+<td align="center">
+<a href="https://github.com/mondyfy"><img src="https://avatars3.githubusercontent.com/u/30776170?s=400&v=4" width="100px;" alt=""/><br /><sub><b> Sandip Basnet
+</b></sub></a><br />
+</td>
+
+<td align="center">
+<a href="https://github.com/Aju100"><img src="https://avatars2.githubusercontent.com/u/29862610?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Aju Tamang</b></sub></a><br />
+</td>
+
+
+</tr>
+</table>
+
+This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
