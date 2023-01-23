@@ -7,6 +7,7 @@ const localBodies = require('./lib/localBodies');
 const allDistrictsInDevanagari = require('./lib/districtsInDevanagari');
 const districtsOfProvinceInDevanagari = require('./lib/districtsProvinceInDevanagari');
 const localBodiesInDevanagari = require('./lib/localBodiesInDevanagari');
+const allInfoInDevanagari = require('./lib/allInfoInDevanagari');
 
 module.exports = {
   allDistricts,
@@ -17,5 +18,6 @@ module.exports = {
   // in devanagari 
   allDistrictsInDevanagari,
   districtsOfProvinceInDevanagari,
-  localBodiesInDevanagari
+  localBodiesInDevanagari,
+  allInfoInDevanagari
 };
