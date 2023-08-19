@@ -3,20 +3,25 @@
 Feb. 05, 2020
 <br />
 
-Ever had the urge to show address information in dropdown or any pre existing form? And wanted to access the data in some sane, easy way? Don't want to hard code the data, for whatever reason? Then info-nepal is what you're looking for!
+Have you ever wanted to effortlessly display address information in a dropdown menu or an existing form? Do you wish to access this data in a straightforward and convenient manner, all without the need for hard-coding? If so, then 'info-nepal' is the solution you've been seeking.
 
 ## Description
 
+Info Nepal is a compact npm package that furnishes the following data:-
+1. An array containing the complete list of districts within Nepal.
+2. An object mapping districts to their respective Provinces and Zones.
+3. An object delineating local bodies (municipalities) corresponding to their respective districts.
 
-Info Nepal is a tiny npm package that provides following data:-
-1. The list of the districts of Nepal in an array.
-2. List of districts of Nepal with respect to Provinces & Zones as an object.
-3. List of local bodies(i.e. municipalities) of respective districts as an object.
-
-## Install
+# Install
 
 ```
-$ npm i info-nepal
+npm i info-nepal
+```
+
+or
+
+```
+yarn add info-nepal
 ```
 
 ## Usage

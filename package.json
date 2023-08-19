@@ -1,6 +1,6 @@
 {
   "name": "info-nepal",
-  "version": "1.2.5",
+  "version": "1.2.6",
   "description": "List districts of Nepal on the basis of zone and provinces.",
   "main": "index.js",
   "keywords": [
