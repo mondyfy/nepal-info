@@ -44,6 +44,23 @@ const localBodies = infoNepal.localBodies;
 
 ```
 
+## Devanagri support
+
+```js
+const infoNepal = require('info-nepal');
+// Load core infoNepal.
+
+const allDistrictsInDevanagari = infoNepal.allDistrictsInDevanagari;
+// Load all districts of Nepal in Devanagari.
+
+const districtsOfProvinceInDevanagari = infoNepal.districtsOfProvinceInDevanagari;
+// Load respective districts of provinces in Devanagari.
+
+const localBodiesInDevanagari = infoNepal.localBodiesInDevanagari;
+// Load localBodies i.e. municipalities & rural municipalities of respective districts in Devanagari.
+
+```
+
 ## Contribution ✨
 
 Thanks goes to these wonderful people:
@@ -56,6 +73,10 @@ Thanks goes to these wonderful people:
 
 <td align="center">
 <a href="https://github.com/anwesh-b"><img src="https://avatars3.githubusercontent.com/u/45763486?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Anwesh Budhathoki</b></sub></a><br />
+</td>
+
+<td align="center">
+<a href="https://github.com/shivajichalise"><img src="https://avatars.githubusercontent.com/u/33979290?v=4" width="100px;" alt=""/><br /><sub><b>Shivaji Chalise</b></sub></a><br />
 </td>
 
 <td align="center">
