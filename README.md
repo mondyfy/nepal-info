@@ -87,5 +87,5 @@ Thanks goes to these wonderful people:
 </tr>
 </table>
 
-This project follows the [all-contributors](https://github.com/all-contributors/all-contributors) specification. Contributions of any kind welcome!
+This project adheres to the [all-contributors](https://github.com/all-contributors/all-contributors) specification, and we welcome contributions of any kind!
 
