@@ -1,6 +1,6 @@
 {
   "name": "info-nepal",
-  "version": "1.2.6",
+  "version": "2.0.0",
   "description": "List districts of Nepal on the basis of zone and provinces.",
   "main": "index.js",
   "keywords": [
@@ -10,7 +10,11 @@
     "nepal-info",
     "Lists of districts of Nepal",
     "Nepal districts",
-    "Province wise districts of Nepal"
+    "Province wise districts of Nepal",
+    "Municipalities in Nepal",
+    "Districts in Nepal",
+    "Provinces in Nepal",
+    "Devanagari support"
   ],
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
