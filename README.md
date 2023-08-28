@@ -44,7 +44,7 @@ const localBodies = infoNepal.localBodies;
 
 ```
 
-## Devanagri support
+## Devanagari support
 
 ```js
 const infoNepal = require('info-nepal');
