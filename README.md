@@ -80,6 +80,11 @@ Thanks goes to these wonderful people:
 </td>
 
 <td align="center">
+<a href="https://github.com/cyberkishor"><img src="https://avatars3.githubusercontent.com/u/2122140?s=400&v=4" width="100px;" alt=""/><br /><sub><b> Kishor Kumar Mahato
+</b></sub></a><br />
+</td>
+
+<td align="center">
 <a href="https://github.com/mondyfy"><img src="https://avatars3.githubusercontent.com/u/30776170?s=400&v=4" width="100px;" alt=""/><br /><sub><b> Sandip Basnet
 </b></sub></a><br />
 </td>
