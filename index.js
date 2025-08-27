@@ -1,3 +1,4 @@
+// Core data
 const allDistricts = require('./lib/districts');
 const districtsOfZone = require('./lib/districtsZone');
 const districtsOfProvince = require('./lib/districtsProvince');
@@ -9,15 +10,21 @@ const districtsOfProvinceInDevanagari = require('./lib/districtsProvinceInDevana
 const localBodiesInDevanagari = require('./lib/localBodiesInDevanagari');
 const allInfoInDevanagari = require('./lib/allInfoInDevanagari');
 
-module.exports = {
+const infoNepal = {
   allDistricts,
   districtsOfZone,
   districtsOfProvince,
   localBodies,
 
-  // in devanagari 
+  // in Devanagari
   allDistrictsInDevanagari,
   districtsOfProvinceInDevanagari,
   localBodiesInDevanagari,
-  allInfoInDevanagari
+  allInfoInDevanagari,
 };
+
+// CommonJS default export
+module.exports = infoNepal;
+
+// ES Module compatibility
+module.exports.default = infoNepal;

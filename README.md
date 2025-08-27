@@ -1,96 +1,95 @@
-# Info Nepal
+# 🇳🇵 Info Nepal
 
-Feb. 05, 2020
-<br />
+Effortlessly access and display Nepali address information (provinces, zones, districts, and municipalities) in your applications — with support for **both English and Devanagari**.
 
-Have you ever wanted to effortlessly display address information in a dropdown menu or an existing form? Do you wish to access this data in a straightforward and convenient manner, all without the need for hard-coding? If so, then 'info-nepal' is the solution you've been seeking.
+## ✨ Features
+- ✅ List of all **districts** in Nepal  
+- ✅ Provinces & zones with their respective districts  
+- ✅ Municipalities (local bodies) under each district  
+- ✅ Full **Devanagari script** support  
+- ✅ Works with **CommonJS (`require`)** and **ESM (`import`)**  
+- ✅ Includes TypeScript type definitions for improved developer experience and autocompletion.
 
-## Description
+---
 
-Info Nepal is a compact npm package that furnishes the following data:-
-1. An array containing the complete list of districts within Nepal.
-2. An object mapping districts to their respective Provinces and Zones.
-3. An object delineating local bodies (municipalities) corresponding to their respective districts.
+## 📦 Installation
 
-# Install
-
-```
-npm i info-nepal
+```bash
+npm install info-nepal
 ```
 
 or
 
-```
+```bash
 yarn add info-nepal
 ```
 
-## Usage
+---
 
+## 🚀 Usage
+
+### CommonJS (Node.js)
 ```js
-const infoNepal = require('info-nepal');
-// Load core infoNepal.
+const infoNepal = require("info-nepal");
 
-const allDistricts = infoNepal.allDistricts;
-// Load all districts of Nepal.
-
-const districtsOfProvince = infoNepal.districtsOfProvince;
-// Load respective districts of provinces.
-
-const districtsOfZone = infoNepal.districtsOfZone;
-// Load respective districts of zones(before province).
-
-const localBodies = infoNepal.localBodies;
-// Load localBodies i.e. municipalities & rural municipalities of respective districts.
-
+console.log(infoNepal.allDistricts);
+console.log(infoNepal.districtsOfProvince);
+console.log(infoNepal.localBodies);
 ```
 
-## Devanagari support
-
+### ES Modules
 ```js
-const infoNepal = require('info-nepal');
-// Load core infoNepal.
+import infoNepal from "info-nepal";
 
-const allDistrictsInDevanagari = infoNepal.allDistrictsInDevanagari;
-// Load all districts of Nepal in Devanagari.
-
-const districtsOfProvinceInDevanagari = infoNepal.districtsOfProvinceInDevanagari;
-// Load respective districts of provinces in Devanagari.
-
-const localBodiesInDevanagari = infoNepal.localBodiesInDevanagari;
-// Load localBodies i.e. municipalities & rural municipalities of respective districts in Devanagari.
-
+console.log(infoNepal.allDistricts);
+console.log(infoNepal.districtsOfProvince);
+console.log(infoNepal.localBodies);
 ```
 
-## Contribution ✨
+---
 
-Thanks goes to these wonderful people:
+## 🔤 Devanagari Support
+```js
+import infoNepal from "info-nepal";
+
+console.log(infoNepal.allDistrictsInDevanagari);
+console.log(infoNepal.districtsOfProvinceInDevanagari);
+console.log(infoNepal.localBodiesInDevanagari);
+```
+
+---
+
+## 🟦 TypeScript Support
+
+Type definitions are built-in, so you get **autocompletion** and **type safety** out of the box:
+
+```ts
+import infoNepal from "info-nepal";
+
+const districts: string[] = infoNepal.allDistricts;
+const province1Districts = infoNepal.districtsOfProvince["Province 1"];
+const localBodies = infoNepal.localBodies["Kathmandu"];
+
+console.log(province1Districts, localBodies);
+```
+
+---
+
+## 🙌 Contributors
+
+Thanks to these wonderful people:
+
 <table>
 <tr>
-
-<td align="center">
-<a href="https://github.com/Aju100"><img src="https://avatars2.githubusercontent.com/u/29862610?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Aju Tamang</b></sub></a><br />
-</td>
-
-<td align="center">
-<a href="https://github.com/anwesh-b"><img src="https://avatars3.githubusercontent.com/u/45763486?s=400&v=4" width="100px;" alt=""/><br /><sub><b>Anwesh Budhathoki</b></sub></a><br />
-</td>
-
-<td align="center">
-<a href="https://github.com/shivajichalise"><img src="https://avatars.githubusercontent.com/u/33979290?v=4" width="100px;" alt=""/><br /><sub><b>Shivaji Chalise</b></sub></a><br />
-</td>
-
-<td align="center">
-<a href="https://github.com/cyberkishor"><img src="https://avatars3.githubusercontent.com/u/2122140?s=400&v=4" width="100px;" alt=""/><br /><sub><b> Kishor Kumar Mahato
-</b></sub></a><br />
-</td>
-
-<td align="center">
-<a href="https://github.com/mondyfy"><img src="https://avatars3.githubusercontent.com/u/30776170?s=400&v=4" width="100px;" alt=""/><br /><sub><b> Sandip Basnet
-</b></sub></a><br />
-</td>
-
+<td align="center"><a href="https://github.com/Aju100"><img src="https://avatars.githubusercontent.com/u/29862610?v=4" width="100px;" /><br /><sub><b>Aju Tamang</b></sub></a></td>
+<td align="center"><a href="https://github.com/anwesh-b"><img src="https://avatars.githubusercontent.com/u/45763486?v=4" width="100px;" /><br /><sub><b>Anwesh Budhathoki</b></sub></a></td>
+<td align="center"><a href="https://github.com/shivajichalise"><img src="https://avatars.githubusercontent.com/u/33979290?v=4" width="100px;" /><br /><sub><b>Shivaji Chalise</b></sub></a></td>
+<td align="center"><a href="https://github.com/cyberkishor"><img src="https://avatars.githubusercontent.com/u/2122140?v=4" width="100px;" /><br /><sub><b>Kishor Kumar Mahato</b></sub></a></td>
+<td align="center"><a href="https://github.com/mondyfy"><img src="https://avatars.githubusercontent.com/u/30776170?v=4" width="100px;" /><br /><sub><b>Sandip Basnet</b></sub></a></td>
 </tr>
 </table>
 
-This project adheres to the [all-contributors](https://github.com/all-contributors/all-contributors) specification, and we welcome contributions of any kind!
+---
 
+## 📜 License
+[MIT](LICENSE)

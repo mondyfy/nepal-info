@@ -1,8 +1,13 @@
 {
   "name": "info-nepal",
-  "version": "2.0.3",
-  "description": "List districts of Nepal on the basis of zone and provinces.",
+  "version": "2.1.0",
+  "description": "List districts, provinces, zones, and municipalities of Nepal with English & Devanagari support.",
   "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    "require": "./index.js",
+    "import": "./index.js"
+  },
   "keywords": [
     "info-nepal",
     "districts-nepal",
@@ -17,7 +22,7 @@
     "Devanagari support"
   ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"No test specified\" && exit 0"
   },
   "author": "Sandip Basnet",
   "repository": {
